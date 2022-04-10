@@ -1,0 +1,17 @@
+{
+  "name": "module8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "offline": "serverless offline",
+    "start": "IS_LOCAL=true nodemon --exec yarn offline --host 0.0.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1111.0",
+    "nodemon": "^2.0.15",
+    "serverless": "^3.12.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.5.0"
+  }
+}
